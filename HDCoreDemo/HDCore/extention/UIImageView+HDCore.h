@@ -27,4 +27,7 @@
  */
 + (instancetype)HDImageViewWithImageName:(NSString *)imageName;
 
++ (instancetype)HDFillImageView;
++ (instancetype)HDFitImageView;
+
 @end

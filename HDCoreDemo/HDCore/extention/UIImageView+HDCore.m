@@ -31,5 +31,18 @@
     return [self HDImageViewWithImage:[UIImage imageNamed:imageName]];
 }
 
++ (instancetype)HDFillImageView {
+    UIImageView *imgView = [[UIImageView alloc] init];
+    imgView.contentMode = UIViewContentModeScaleAspectFill;
+    imgView.clipsToBounds = YES;
+    return imgView;
+}
++ (instancetype)HDFitImageView {
+    UIImageView *imgView = [[UIImageView alloc] init];
+    imgView.contentMode = UIViewContentModeScaleAspectFit;
+    imgView.clipsToBounds = YES;
+    return imgView;
+}
+
 
 @end
