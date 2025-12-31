@@ -20,7 +20,6 @@ FOUNDATION_EXPORT const unsigned char HDCoreVersionString[];
 #import "NSString+HDCore.h"
 #import "UIImage+HDCore.h"
 #import "UIViewController+HDCore.h"
-#import "UILabel+HDCore.h"
 #import "UIView+HDCore.h"
 #import "HDUtilsMacro.h"
 #import "HDSystemInfo.h"
